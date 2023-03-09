@@ -1,8 +1,8 @@
-import { Notification } from "components/Notification/Notification";
+import Notification from "components/Notification/Notification";
 import PropTypes from 'prop-types';
 import { Item } from './Statistics.styled';
 
-export const Statistics = ({ good, neutral, bad, total, positivePercentage }) => {
+export default function Statistics({ good, neutral, bad, total, positivePercentage }) {
     return (
         <div>
             <h2>Statistics</h2>
