@@ -58,7 +58,7 @@ export class App extends Component {
   
   render() {
     return (
-      <div>
+      <div style={{margin: '40px'}}>
         <Section title="Plese leave feedback" />
         <FeedbackOptions
           // addGood={this.addGood}
