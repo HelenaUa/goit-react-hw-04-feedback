@@ -34,7 +34,7 @@ export default function App() {
 
   const countPositiveFeedbackPercentage = () => {
     let positivePercentage = 0;
-    if (countTotalFeedback() === 0) {
+    if (![good] || countTotalFeedback() === 0) {
       return;
     }
      positivePercentage = good / countTotalFeedback() * 100;
